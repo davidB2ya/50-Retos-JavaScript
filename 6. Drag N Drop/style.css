@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(36, 122, 192);
+}
+
+body {
+    display: flex;
+}
+
+.empty {
+    width: 200px;
+    background-color: white;
+    z-index: -1;
+    border: black;
+}
+
+.fill {
+    width: 150px;
+}
+
+.hold {
+    border-inline-style: 1px;
+}
+
+.hovered {
+    fill: dashed;
+}
+
+.cards {
+    background-color: white;
+    z-index: -1;
+    border: black;
+}
+
+.empty.cuadro1 {
+    background-color: white;
+}
+
+@media (max-width: 800px) {}
